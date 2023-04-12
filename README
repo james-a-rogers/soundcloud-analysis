@@ -1,0 +1,118 @@
+//========//
+// README //
+//========//
+
+All code written by James Rogers (542046)
+
+Python code was developed and tested using Python 3.7.
+
+QUICK START GUIDE
+=================
+1. To get started, download this entire directory
+2. Ensure that Python 3.7 is installed
+3. Ensure that the following Python packages are installed:
+  - networkx
+  - six
+  - soundcloud
+4. Take a look at 'crawler.py'
+  - This cannot be run without obtaining a SoundCloud API key
+  - If run, it will generate 'userAttributes.txt' and 'userFollowings.txt' files
+    like the sample ones provided
+5. Run 'analysis.py' to completion, which will generate the following files:
+  - clique_communities.txt
+  - girvan_newman.txt
+  - kernighan_lin.txt
+  - user_summary.txt
+  - followings.json
+6. Copy the contents of 'followings.json' into the line marked within
+   'network.html'
+7. Open 'network.html' in a browser to view a visualisation of the network
+  - Scroll the browser window to the centre of the page and adjust the zoom
+    as required
+
+STEP 1: CRAWLER
+===============
+You will need to obtain a SoundCloud API key/client ID which can be found at
+https://developers.soundcloud.com/.
+
+Open 'crawler.py'. At the top of the file, there are a number of configuration
+constants which can be edited to modify the behaviour of the crawler script.
+
+Set CLIENT_ID to your obtained SoundCloud API key.
+
+Set STARTING_ID to a valid SoundCloud user ID for a user that follows a
+reasonable number of other user profiles. '3665982' is a working example.
+
+The scale and length of the search can be adjusted by changing the
+MINIMUM_FOLLOWERS value. The crawler will only visit users with more than this
+number of followers.
+
+To speed up the crawler, any combination of the following will help:
+- Set ADD_PAUSES_BETWEEN_CALLS to False
+- Set ADD_REGULAR_PAUSES to False
+- Increase REGULAR_PAUSE_FREQUENCY
+- Decrease any of the elements of:
+  - PAUSE_BETWEEN_USERS_TIME_RANGE
+  - PAUSE_BETWEEN_RELATIONSHIP_CALLS_TIME_RANGE
+  - REGULAR_PAUSE_TIME_RANGE
+
+Note that any of these changes may come at the expense of getting rate limited
+by SoundCloud.
+
+To run the crawler script, use the command:
+'python crawler.py'
+
+This crawler script will output 2 text files (tab separated):
+- userAttributes.txt: A file containing metadata for all discovered users
+- userFollowings.txt: A file containing a list of users that each user follows
+
+The script is designed to be run to completion. If it is taking too long, please
+use a larger MINIMUM_FOLLOWERS value.
+
+STEP 2: ANALYSIS
+================
+Make sure that 'userAttributes.txt' and 'userFollowings.txt' exist. If they do
+not, run Step 1 first.
+
+Open 'analysis.py'. At the top of the file, there are a number of configuration
+constants which can be edited to modify the behaviour of the analysis script.
+
+MINIMUM_FOLLOWERS and MAXIMUM_FOLLOWERS are used to restrict analysis to only
+profiles with a follower count within a certain range.
+
+MINIMUM_NUMBER_OF_RELATIONSHIPS and MAXIMUM_NUMBER_OF_RELATIONSHIPS are used to
+restrict analysis to only profiles that have a number of relationships within a
+certain range.
+
+COMPLETE_ADDITIONAL_GRAPH_ANALYSIS is used to switch ON/OFF some additional
+analysis steps.
+
+Setting COMPLETE_ADDITIONAL_GRAPH_ANALYSIS to True will cause the script to
+output a number of additional files:
+- clique_communities.txt: A file listing K-Clique communities
+- girvan_newman.txt: A file listing the results of Girvan Newman Partitioning
+- kernighan_lin.txt: A file listing the results Kernighan Lin Bisection
+- user_summary.txt: A file listing users' Degrees and Clique Numbers
+
+Setting COMPLETE_ADDITIONAL_GRAPH_ANALYSIS will omit the additional analysis
+steps and save time.
+
+To run the analysis script, use the command:
+'python analysis.py'
+
+This analysis script will always output at least one file:
+- followings.json: A file containing data to be used by 'network.html'
+
+STEP 3: VISUALISATION
+=====================
+Make sure that 'followings.json' exists. If it does not, run Step 2 first.
+
+Open 'followings.json'. Copy its entire contents.
+
+Open 'network.html' in a text editor. At the top of the file, a line has been
+marked. Paste the contents of 'followings.json' previously copied here.
+
+Open 'network.html' in a browser. Scroll the window to the centre and adjust
+the zoom as required. This provides a visualisation of the network generated
+by the previous analysis steps, showing users as location-coloured nodes and the
+links between them.

@@ -1,0 +1,151 @@
+VOLAC	5	6
+[ ZERO DAY ]	8	7
+[ PROPER PR ]	8	7
+[ MIX FEED ]	8	7
+[ FREE DL ]	8	7
+[ FEATURE ]	8	7
+MIX ► UNION	6	7
+FractaLL	5	6
+Alok	10	7
+Deep Sounds	8	5
+House	5	5
+Essential Music	5	5
+EDM.com	6	5
+The XXX	3	4
+Trap	8	5
+The Select: Dance	4	5
+Dubstep	6	5
+Wonderlust	4	4
+Selected.	4	2
+Robin Schulz	6	4
+Rudimental	3	3
+Future House Music	3	3
+Louis The Child	24	5
+MrSuicideSheep	13	5
+Big Gigantic	14	4
+Adventure Club	13	5
+VANIC Official	12	5
+San Holo	18	5
+ILLENIUM	13	5
+PETIT BISCUIT	10	4
+Seven Lions	3	2
+Flume	18	5
+ODESZA	22	5
+TheSoundYouNeed	11	4
+Kygo	11	4
+TheFatRat	4	3
+NGHTMRE	33	6
+RUN THE TRAP	30	6
+TroyBoi	22	6
+BRO SAFARI	12	6
+Zeds Dead	12	6
+Kill The Noise	22	6
+GTA_	12	5
+THUMP	14	4
+Tropkillaz	10	6
+The Chainsmokers	13	4
+Buygore	9	4
+JAUZ	17	6
+GETTER	3	2
+Yellow Claw	4	4
+Trap and Bass	9	5
+MR•CAR/\\ACK	14	5
+Herobust	30	6
+Diplo	38	6
+What So Not	21	5
+SNAKEHIPS	13	5
+Gramatik	11	5
+Bakermat	5	4
+Sam Feldt	8	3
+Borgore	9	4
+Keys N Krates	13	6
+SLANDER	14	6
+Trap Nation	8	3
+Flosstradamus	15	4
+HU₵₵I	11	5
+Thissongissick.com	21	5
+Majestic Casual	11	4
+Spinnin' Records	12	3
+NCS	6	3
+UKF	4	3
+20syl	9	4
+Ta-ku	23	5
+Tom Misch	8	3
+stwo	18	5
+Mura Masa	19	5
+Bondax	19	5
+Skrillex	9	4
+GRiZ	6	4
+OWSLA	14	4
+TJR	7	4
+Alison Wonderland	8	3
+Major Lazer [OFFICIAL]	4	4
+DIRTYBIRD	9	3
+RÜFÜS DU SOL	8	3
+Baauer	3	3
+discobelle	4	3
+Anjunadeep	3	3
+The Magician	10	3
+DFA Records	5	3
+i-D	10	4
+Dim Mak Records	4	2
+NOISIA	3	2
+Ninja Tune	4	4
+Cyril Hahn	5	3
+future classic	20	5
+Duke Dumont	12	5
+"KKAAYYTTRRAA"	15	5
+Pegboard Nerds	3	3
+Excision	3	2
+T-E-E-D	8	3
+Kidnap	7	3
+A-Trak	13	3
+Alina Baraz	15	5
+FKJ	9	4
+3LAU	8	4
+Krewella	5	4
+Sick Bedroom Records Official	5	3
+Musical Freedom	3	3
+Ookay	20	6
+REZZ	6	4
+Disclosure	16	5
+anderson .paak	5	3
+Nick Murphy (Chet Faker)	7	5
+Sángo	16	5
+ESTA.	12	5
+AlunaGeorge	9	5
+Mad Decent	14	5
+DILLONFRANCIS	9	4
+Flight Facilities	5	3
+Jagwar Ma	3	3
+TOKiMONSTA	5	3
+Hippie Sabotage	3	3
+SNAILS	13	6
+KOAN Sound	3	3
+Crizzly	6	5
+Daniel Caesar	3	3
+SOULECTION	4	5
+jrabbit	4	4
+Pouya .	3	2
+Trap Sounds	6	3
+Virtual Riot	6	5
+Panda Eyes	3	3
+Fool's Gold Records	3	3
+Spinnin' Deep	6	3
+Sander van Doorn	3	3
+DOORN Records	3	3
+Spinnin' Sessions	3	3
+beartrap sound	5	4
+Klingande	3	4
+Chill Nation	4	3
+kflay	3	3
+Matoma	4	3
+Crystal Fighters	4	3
+martinsolveig	3	2
+Thomas Jack.	8	4
+Melodic Sounds	4	2
+W. A. Production®	5	4
+Pump Your Sound	5	4
+Big EDM Sounds	4	4
+Big EDM Sounds Network	3	4
+W. A. Production Network	3	4
